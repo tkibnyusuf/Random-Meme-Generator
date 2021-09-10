@@ -1,0 +1,155 @@
+html, body{
+
+    margin: 0;
+    background-color: #1D2326;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+
+    width: 70%;
+    margin: auto;
+}
+
+.mainhead h1{
+ text-align: center;
+ background-color: transparent;
+
+}
+
+#navbar div{
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+
+}
+
+#navbar ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    justify-content: flex-start;
+}
+
+
+.lists li{padding-right: 10px;}
+
+.inputy input[type='text']{
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+
+}
+#navbar.ul{
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+    
+
+#mainbar h2{
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+
+.output-class{
+    float: right;
+    width: 50%;
+    border-left: 1px solid white ;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.output-class div{
+    line-height: 5em;
+
+    
+
+}
+
+#sidebar h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-class{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+
+
+}
+
+.action-class div{
+margin-top: 40px;
+
+}
+
+ button{
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid white;
+    
+
+}
+
+button:hover{
+    background-color:#8097A6;
+    color: bl;
+    border: 1px solid black;
+
+}
+
+.none button{
+    text-decoration: underline;
+    border: none;
+    font-size: 16px;
+    padding-top: 5px;
+
+}
+
+
+.colorful {
+color: tomato;
+font-size: 18px;
+
+}
+
+.clr{
+
+    clear:both
+}
+
+.help button{
+     background-color: #8097A6;
+     color: black;
+     border-radius: 8px;
+     box-shadow: 1px 2px 5px 5px rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+}
+
+.mainfooter{
+
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+
